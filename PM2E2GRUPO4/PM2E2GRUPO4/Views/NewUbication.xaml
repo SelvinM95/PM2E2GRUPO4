@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E2GRUPO4.Views.NewUbication">
+    <ScrollView>
+        <AbsoluteLayout>
+            <FlexLayout IsVisible="True"  Direction="Column" AlignItems="Center" HorizontalOptions="Center" Margin="30,0,30,0" >
+                <StackLayout>
+                    <Image x:Name="Photo"
+                       WidthRequest="200" 
+                       HeightRequest="160"
+                           BackgroundColor="Black"
+                           Margin="5"/>
+
+                    <Button Text="Tomar Foto" x:Name="tomar" Clicked="tomar_Clicked"/>
+                </StackLayout>
+
+             <Label Text="Latitud actual" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0"/>
+            <Entry Text="" Keyboard="Numeric" x:Name="latitud" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Longitud actual" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+            <Entry Text="" Keyboard="Numeric"  x:Name="longitud" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Describa la ubicación" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+            <Editor Text="" Keyboard="Chat" x:Name="ubicacionC" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+
+                <Button x:Name="UbicationSave" Clicked="UbicationSave_Clicked"  
+                    Margin="10"
+                    FontSize="Medium" BackgroundColor="#04B71E"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="5" FlexLayout.AlignSelf="Stretch"  
+                    HorizontalOptions="CenterAndExpand" Text="Guardar Ubicación"></Button>
+            </FlexLayout>
+        
+    </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

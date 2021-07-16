@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E2GRUPO4.Views.UbicationSave"
+             Title="Listado de Ubicaciones">
+
+    <StackLayout>
+
+        <ListView
+                  x:Name="ListStudent"
+                  HasUnevenRows="True" 
+                  SeparatorColor="Blue"
+                  SeparatorVisibility="None"
+                  BackgroundColor="White"
+                  SelectionMode="None"
+                  SelectedItem="ListStuden_SelectedItem"
+                  ItemTapped="ListStudent_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="15">
+                            <Frame CornerRadius="5" HasShadow="True">
+                                <StackLayout HorizontalOptions="Center">
+                                    <Label Text="{Binding id}" x:Name="idUbicacion" IsVisible="false"></Label>
+                                    <Label Text="{Binding descripcion}"  HorizontalOptions="Center" FontSize="16" FontAttributes="Bold"></Label>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="5">
+                                    </StackLayout>
+                                    </StackLayout> 
+                            </Frame>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

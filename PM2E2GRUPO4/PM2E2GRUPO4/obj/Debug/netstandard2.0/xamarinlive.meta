@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\App.xaml</FilePath>
+      <Hash>30-6C-C0-12-A7-59-3C-9B-BB-A2-5C-53-11-E3-F5-2C</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\AppShell.xaml</FilePath>
+      <Hash>30-A4-3A-21-17-C7-00-4A-A3-C3-B8-EA-52-11-F4-2F</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\AboutPage.xaml</FilePath>
+      <Hash>82-79-92-F9-49-ED-43-87-0A-05-41-60-03-97-01-ED</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\ItemDetailPage.xaml</FilePath>
+      <Hash>14-C7-C9-54-DE-A0-AD-18-A5-B9-CE-DE-7C-B9-08-0D</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\ItemsPage.xaml</FilePath>
+      <Hash>A6-E9-4B-C8-B9-BE-C9-DB-28-E5-B8-29-D6-43-0A-F3</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\LoginPage.xaml</FilePath>
+      <Hash>63-D4-C3-CF-C0-5D-07-F2-8B-37-E8-8B-C9-FF-F0-F8</Hash>
+      <Properties>
+        <string>Shell.NavBarIsVisible</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\NewItemPage.xaml</FilePath>
+      <Hash>01-9D-36-36-B0-85-E3-1E-DA-88-37-E6-22-7C-82-A7</Hash>
+      <Properties>
+        <string>Shell.PresentationMode</string>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\NewUbication.xaml</FilePath>
+      <Hash>E0-B7-1F-A3-F3-C5-EE-CA-AF-52-D2-D8-41-64-C1-A6</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\SelvinM95\source\repos\PM2E2GRUPO4\PM2E2GRUPO4\PM2E2GRUPO4\Views\UbicationSave.xaml</FilePath>
+      <Hash>C6-65-DE-D7-F1-76-3D-D9-B1-DE-92-AB-40-CF-6D-CB</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

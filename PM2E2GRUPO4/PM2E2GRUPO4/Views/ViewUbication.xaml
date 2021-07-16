@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E2GRUPO4.Views.ViewUbication">
+    
+    <ContentPage.Content>
+        <Frame Margin="5" CornerRadius="10" HasShadow="True">
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="{Binding id}" x:Name="idUbicacion" IsVisible="false"></Label>
+                <Image x:Name="foto"  WidthRequest="250"></Image>
+                <Label Text="{Binding descripcion}" x:Name="descripcion"  HorizontalOptions="Center" FontSize="14" FontAttributes="Bold"></Label>
+                <Label Text="{Binding latitud}" IsVisible="false" HorizontalOptions="Center" FontSize="14" FontAttributes="Bold"></Label>
+                <Label Text="{Binding longitud}" IsVisible="false"  HorizontalOptions="Center" FontSize="14" FontAttributes="Bold"></Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="5">
+                    <Button Text="Eliminar"  BackgroundColor="red" x:Name="delete" Clicked="delete_Clicked" />
+                    <Button Text="Ver Ubicación"  BackgroundColor="Green" x:Name="ver" Clicked="ver_Clicked"/>
+                </StackLayout>
+                <Label Text="Sitios Cercanos" Margin="5"/>
+                <ListView
+                  x:Name="ListSites"
+                  HasUnevenRows="True" 
+                  SeparatorColor="Blue"
+                  SeparatorVisibility="None"
+                  BackgroundColor="#F0F6F1"
+                  SelectionMode="None"
+                  ItemTapped="ListSites_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="15">
+                                    <Frame CornerRadius="10" HasShadow="True">
+                                        <StackLayout HorizontalOptions="Center">
+                                            <Label Text="{Binding id}" x:Name="idUbicacion" IsVisible="false"></Label>
+                                            <Label Text="{Binding name}"  HorizontalOptions="Center" FontSize="14" FontAttributes="Bold"></Label>
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="5">
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
